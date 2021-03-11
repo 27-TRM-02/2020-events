@@ -1,12 +1,41 @@
 body {
-    background-color: rgb(176, 121, 204)
+    background-color: rgb(176, 121, 204);
+    margin          : 5% 5% 5% 5%;
 }
 
 h1 {
-    color: rgb(175, 0, 35);
+    color     : rgb(175, 0, 35);
     text-align: center;
 }
 
 h2 {
     color: darkgreen;
+}
+
+table {
+    width : 90%;
+    border: 1px solid black;
+}
+
+table .table-header-wrapper {
+    background-color: black;
+    color           : rgb(194, 194, 194);
+}
+
+table col {
+    background-color: rgb(94, 94, 50);
+}
+
+table .table-record-header {
+    text-align  : left;
+    padding-left: 1%;
+}
+
+table .table-record-total-header {
+    text-align  : end;
+    padding-right: 1%;
+}
+
+.index-col {
+    background-color: grey;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -10,186 +10,187 @@
 <body>
     <main>
         <h1>COVID-19</h1>
-        <h2 id="españa">ESPAÑA</h2><br>
-        <table style="border:1px solid black">
-            <caption>Cifras Covid-19 en España</caption>
-            <colgroup>
-                <col style="background-color: grey">
-                <col span="3" style="background-color:rgb(94, 94, 50);">
-            </colgroup>
-            <thead>
-                <tr style="background-color:black; color: rgb(194, 194, 194);">
-                    <td>&nbsp;</td>
-                    <td>Casos</td>
-                    <td>Muertos</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Enero</th>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <th>Febrero</th>
-                    <td>3</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <th>Marzo</th>
-                    <td>290</td>
-                    <td>30</td>
-                </tr>
-                <tr>
-                    <th>Abril</th>
-                    <td>850</td>
-                    <td>40</td>
-                </tr>
-                <tr>
-                    <th>Mayo</th>
-                    <td>1501</td>
-                    <td>510</td>
-                </tr>
-                <tr>
-                    <th>Junio</th>
-                    <td>3390</td>
-                    <td>810</td>
-                </tr>
-                <tr>
-                    <th>Julio</th>
-                    <td>4500</td>
-                    <td>1510</td>
-                </tr>
-                <tr>
-                    <th>Agosto</th>
-                    <td>6200</td>
-                    <td>2270</td>
-                </tr>
-                <tr>
-                    <th>Septiembre</th>
-                    <td>9800</td>
-                    <td>6070</td>
-                </tr>
-                <tr>
-                    <th>Octubre</th>
-                    <td>15000</td>
-                    <td>3200</td>
-                </tr>
-                <tr>
-                    <th>Noviembre</th>
-                    <td>12500</td>
-                    <td>4500</td>
-                </tr>
-                <tr>
-                    <th>Diciembre</th>
-                    <td>7500</td>
-                    <td>1200</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Total</th>
-                    <th>855106</th>
-                    <th>84370</th>
-                </tr>
-            </tfoot>
-        </table>
+        <div class="covid-tables-wrapper">
+            <h2 id="españa">ESPAÑA</h2><br>
+            <table class="spain-table">
+                <caption>Cifras Covid-19 en España</caption>
+                <colgroup>
+                    <col class="index-col">
+                    <col span="3">
+                </colgroup>
+                <thead class="table-header-wrapper">
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Casos</td>
+                        <td>Muertos</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="table-record-header" scope="col">Enero</th>
+                        <td class="table-record-item">0</td>
+                        <td class="table-record-item">0</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Febrero</th>
+                        <td class="table-record-item">3</td>
+                        <td class="table-record-item">0</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Marzo</th>
+                        <td class="table-record-item">290</td>
+                        <td class="table-record-item">30</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Abril</th>
+                        <td class="table-record-item">850</td>
+                        <td class="table-record-item">40</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Mayo</th>
+                        <td class="table-record-item">1501</td>
+                        <td class="table-record-item">510</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Junio</th>
+                        <td class="table-record-item">3390</td>
+                        <td class="table-record-item">810</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Julio</th>
+                        <td class="table-record-item">4500</td>
+                        <td>1510</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Agosto</th>
+                        <td class="table-record-item">6200</td>
+                        <td class="table-record-item">2270</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Septiembre</th>
+                        <td class="table-record-item">9800</td>
+                        <td class="table-record-item">6070</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Octubre</th>
+                        <td class="table-record-item">15000</td>
+                        <td class="table-record-item">3200</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Noviembre</th>
+                        <td class="table-record-item">12500</td>
+                        <td class="table-record-item">4500</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Diciembre</th>
+                        <td class="table-record-item">7500</td>
+                        <td class="table-record-item">1200</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="table-record-total-header" scope="col">Total</th>
+                        <td class="table-record-item">855106</td>
+                        <td class="table-record-item">84370</td>
+                    </tr>
+                </tfoot>
+            </table>
 
-        <h2 id="mundial">A NIVEL MUNDIAL</h2>
+            <h2 id="mundial">A NIVEL MUNDIAL</h2>
 
-        <table style="border:1px solid black">
-            <caption>Cifras Covid-19 a nivel Mundial</caption>
-            <colgroup>
-                <col style="background-color: grey">
-                <col span="3" style="background-color:rgb(94, 94, 50);">
-            </colgroup>
-            <thead>
-                <tr style="background-color:black; color: rgb(194, 194, 194);">
-                    <td>&nbsp;</td>
-                    <td>Casos</td>
-                    <td>Muertos</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Enero</th>
-                    <td>1750</td>
-                    <td>150</td>
-                </tr>
-                <tr>
-                    <th>Febrero</th>
-                    <td>4900</td>
-                    <td>1000</td>
-                </tr>
-                <tr>
-                    <th>Marzo</th>
-                    <td>124000</td>
-                    <td>5400</td>
-                </tr>
-                <tr>
-                    <th>Abril</th>
-                    <td>355000</td>
-                    <td>52000</td>
-                </tr>
-                <tr>
-                    <th>Mayo</th>
-                    <td>1100000</td>
-                    <td>75000</td>
-                </tr>
-                <tr>
-                    <th>Junio</th>
-                    <td>1810200</td>
-                    <td>85000</td>
-                </tr>
-                <tr>
-                    <th>Julio</th>
-                    <td>2500100</td>
-                    <td>120000</td>
-                </tr>
-                <tr>
-                    <th>Agosto</th>
-                    <td>2700500</td>
-                    <td>500100</td>
-                </tr>
-                <tr>
-                    <th>Septiembre</th>
-                    <td>2800000</td>
-                    <td>750000</td>
-                </tr>
-                <tr>
-                    <th>Octubre</th>
-                    <td>3510000</td>
-                    <td>950000</td>
-                </tr>
-                <tr>
-                    <th>Noviembre</th>
-                    <td>4100200</td>
-                    <td>760400</td>
-                </tr>
-                <tr>
-                    <th>Diciembre</th>
-                    <td>1200500</td>
-                    <td>210300</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Total</th>
-                    <th>20207150</th>
-                    <th>3509350</th>
-                </tr>
-            </tfoot>
-        </table>
-        <p>
-            <img src="./Imagenes/covid_mundo.jpg" alt="covid mundo" width="400" height="320">
-        </p>
-        <p>
-            <img src="./Imagenes/covid_esp.jpeg" alt="covid españa" width="400" height="320">
-        </p>
-        <p>
-            <img src="./Imagenes/covid_comp.jpg" alt="covid comparativa" width="400" height="320">
-        </p>
-
+            <table class="whole-world">
+                <caption>Cifras Covid-19 a nivel Mundial</caption>
+                <colgroup>
+                    <col class="index-col">
+                    <col span="3" style="background-color:rgb(94, 94, 50);">
+                </colgroup>
+                <thead>
+                    <tr style="background-color:black; color: rgb(194, 194, 194);">
+                        <td>&nbsp;</td>
+                        <td>Casos</td>
+                        <td>Muertos</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="table-record-header" scope="col">Enero</th>
+                        <td>1750</td>
+                        <td>150</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Febrero</th>
+                        <td>4900</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Marzo</th>
+                        <td>124000</td>
+                        <td>5400</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Abril</th>
+                        <td>355000</td>
+                        <td>52000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Mayo</th>
+                        <td>1100000</td>
+                        <td>75000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Junio</th>
+                        <td>1810200</td>
+                        <td>85000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Julio</th>
+                        <td>2500100</td>
+                        <td>120000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Agosto</th>
+                        <td>2700500</td>
+                        <td>500100</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Septiembre</th>
+                        <td>2800000</td>
+                        <td>750000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Octubre</th>
+                        <td>3510000</td>
+                        <td>950000</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Noviembre</th>
+                        <td>4100200</td>
+                        <td>760400</td>
+                    </tr>
+                    <tr>
+                        <th class="table-record-header" scope="col">Diciembre</th>
+                        <td>1200500</td>
+                        <td>210300</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="table-record-total-header" scope="col">Total</th>
+                        <td>20207150</td>
+                        <td>3509350</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <p>
+                <img src="./Imagenes/covid_mundo.jpg" alt="covid mundo" width="400" height="320">
+            </p>
+            <p>
+                <img src="./Imagenes/covid_esp.jpeg" alt="covid españa" width="400" height="320">
+            </p>
+            <p>
+                <img src="./Imagenes/covid_comp.jpg" alt="covid comparativa" width="400" height="320">
+            </p>
+        </div>
     </main>
     <footer>
         <p>
