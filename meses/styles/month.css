@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(191, 134, 206)
+}
+
+h1 {
+    color: rgb(27, 8, 201);
+    text-align: center;
+}
+
+h2 {
+    color: red;
+}
+
+.news-wrapper {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.news-item-wrapper {
+    border: inherit;
+    border-radius: inherit;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.title-wrapper {
+    border: inherit;
+    border-radius: inherit;
+    background-color: grey;
+}
+
+.content-wrapper {
+    border: inherit;
+    border-radius: inherit;
+    padding: 3em;
+}
