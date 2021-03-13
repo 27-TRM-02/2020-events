@@ -1,0 +1,23 @@
+/** Para visión en tablets. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /** Index */
+    .month-summaries-wrapper {
+        padding-left: 4%;
+        padding-bottom: 4%;
+    }
+    /** Months */
+    .content-wrapper {
+        padding-left: 4%;
+        padding-bottom: 4%;
+    }
+    /** Covid */
+    table .table-record-header {
+        text-align: left;
+        padding-left: 1%;
+    }
+    table .table-record-total-header {
+        text-align: end;
+        padding-right: 1%;
+    }
+}
